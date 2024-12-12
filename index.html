@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/memoji.avif" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/memoji.avif" alt="rambertheone" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="rambertheone">Rambert Tsafack</h1>
+
+          <p class="title">Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="tsafackrambert@gmail.com" class="contact-link">tsafackrambert@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+5144097018" class="contact-link">+1 (514) 409-7018</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-">2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Montréal</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/rambertheone" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+
+      <!-- <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav> -->
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a Computer Science student, I'm driven by a passion for problem-solving and a commitment to excellence. I'm a dedicated learner with a strong work ethic, consistently seeking opportunities to expand my technical skills and contribute to meaningful projects. My goal is to leverage my knowledge and hard work to make a positive impact in the tech industry.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                Expanding my Android development skills using Android Studio
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I love taking picture and making videos with my Olympus
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <div>
+            <header>
+              <h2 class="h2 article-title">Resume</h2>
+            </header>
+    
+            <section class="timeline">
+    
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Education</h3>
+              </div>
+    
+              <ol class="timeline-list">
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">John Abbott College</h4>
+    
+                  <span>2022 — 2025</span>
+    
+                  <p class="timeline-text">
+                    As a Computer Science student, I have experience designing, developing, and implementing solutions with technologies like React, Node.js, SQL, ASP .NET.
+                  </p>
+    
+                </li>
+    
+              </ol>
+    
+            </section>
+    
+            <section class="timeline">
+    
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Experience</h3>
+              </div>
+    
+              <ol class="timeline-list">
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Host</h4>
+    
+                  <span>2024 — Present</span>
+    
+                  <p class="timeline-text">
+                    Greeting and seating guests, and ensuring they have a pleasant dining experience
+                  </p>
+    
+                </li>
+    
+              </ol>
+    
+            </section>
+    
+            <section class="skill">
+    
+              <h3 class="h3 skills-title">My skills</h3>
+    
+              <ul class="skills-list content-card">
+    
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">Web design</h5>
+                    <data value="80">80%</data>
+                  </div>
+    
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+    
+                </li>
+    
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">Web Development</h5>
+                    <data value="90">90%</data>
+                  </div>
+    
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                  </div>
+    
+                </li>
+    
+                <li class="skills-item">
+    
+                  <div class="title-wrapper">
+                    <h5 class="h5">Application Development</h5>
+                    <data value="50">75%</data>
+                  </div>
+    
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 50%;"></div>
+                  </div>
+    
+                </li>
+    
+              </ul>
+    
+            </section>
+
+
+          </div>
+
+          <section class="clients">
+
+            <ul class="clients-list has-scrollbar">
+  
+              <section class="scroll">
+                <h3 class="h3 scroll-title">Languages</h3>
+                <div class="scroll-list has-scrollbar">
+                  <div class="scroll-track">  
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5" title="HTML5">
+                      <p>HTML5</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS3">
+                      <p>CSS3</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" title="JavaScript">
+                      <p>JavaScript</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" title="NodeJS">
+                      <p>NodeJS</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" alt="jquery" title="jQuery">
+                      <p>jQuery</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" title="Bash">
+                      <p>Bash</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="csharp" title="C#">
+                      <p>C#</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" title=".NET">
+                      <p>.NET</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" title="Python">
+                      <p>Python</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" alt="mssql" title="MSSQL">
+                      <p>MSSQL</p>
+                    </span>
+                    <span class="scroll-item">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" title="MySQL">
+                      <p>MySQL</p>
+                    </span>
+                    <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" alt="SQLite" title="SQLite">
+                        <p>SQLite</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5" title="HTML5">
+                        <p>HTML5</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS3">
+                        <p>CSS3</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" title="JavaScript">
+                        <p>JavaScript</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" title="NodeJS">
+                        <p>NodeJS</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" alt="jquery" title="jQuery">
+                        <p>jQuery</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" title="Bash">
+                        <p>Bash</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="csharp" title="C#">
+                        <p>C#</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" title=".NET">
+                        <p>.NET</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" title="Python">
+                        <p>Python</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" alt="mssql" title="MSSQL">
+                        <p>MSSQL</p>
+                      </span>
+                      <span class="scroll-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" title="MySQL">
+                        <p>MySQL</p>
+                      </span>
+                      <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" alt="SQLite" title="SQLite">
+                          <p>SQLite</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="html5" title="HTML5">
+                          <p>HTML5</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS3">
+                          <p>CSS3</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" title="JavaScript">
+                          <p>JavaScript</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" title="NodeJS">
+                          <p>NodeJS</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" alt="jquery" title="jQuery">
+                          <p>jQuery</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" title="Bash">
+                          <p>Bash</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="csharp" title="C#">
+                          <p>C#</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" title=".NET">
+                          <p>.NET</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" title="Python">
+                          <p>Python</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" alt="mssql" title="MSSQL">
+                          <p>MSSQL</p>
+                        </span>
+                        <span class="scroll-item">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" title="MySQL">
+                          <p>MySQL</p>
+                        </span>
+                        <span class="scroll-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" alt="SQLite" title="SQLite">
+                            <p>SQLite</p>
+                          </span>
+                  </div>
+                </div>
+              </section>
+  
+          </section>
+
+        </section>
+
+        <h3 class="h3 service-title">My Projects</h3>
+
+          <ul class="service-list">
+
+            <a href="https://github.com/rambertheone/poetry-website">
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Poetry Website</h4>
+  
+                  <p class="service-item-text">
+                    A poetry website that enables users to create poems and share it with the world
+                  </p>
+                </div>
+  
+              </li>
+            </a>
+
+            <a href="https://github.com/LiamGalley/FutureFit">
+              <li class="service-item">
+                <div class="service-icon-box" href="google.com">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                </div>
+  
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">FutureFit</h4>
+  
+                  <p class="service-item-text">
+                  A mobile application facilitating the creation of workouts
+                  </p>
+                </div>
+  
+              </li>
+            </a>
+
+
+          </ul>
+
+          <section class="skill">
+
+            <h3 class="h3 skills-title">Download my Resume!</h3>
+  
+            <!-- TO CHANGE -->
+            <embed src="./assets/images/TsafackRambert-1.pdf" alt="My Resume" width="800px" height="2100px">
+  
+          </section>
+
+        
+
+      </article>
+
+
+      
+
+
+    </div>
+
+  </main>
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
